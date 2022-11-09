@@ -1,0 +1,58 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.left img{
+    width: 69px;
+    border-radius: 15px;
+}
+.container{
+    max-width: 79vw;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+nav ul li{
+    list-style: none;
+    padding: 7px 11px;
+}
+.right>button:nth-child(1){
+    background-color:white;
+    border: 2px solid gray
+
+    
+}
+.right>button{
+    height: 50%;
+    align-items: center;
+    margin: 17px 5px;
+    cursor: pointer;
+    background-color: rgb(62, 137, 236);
+    border-radius: 7px;
+    border: none ;
+    /* background-color: blue; */
+    /* -webkit-mask-origin: border-box; */
+}
+a:hover{
+    color: blue;
+    /* background-color: blue; */
+    
+}
+
+.right>a{
+    margin: 23px 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+li{
+    cursor: pointer;
+}
