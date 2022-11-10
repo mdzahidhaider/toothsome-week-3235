@@ -1,0 +1,107 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 15px;
+}
+
+.left img{
+    width: 69px;
+    border-radius: 15px;
+}
+.container{
+    max-width: 79vw;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+nav ul li{
+    list-style: none;
+    padding: 7px 11px;
+}
+.right>button:nth-child(1){
+    background-color:white;
+    border: 2px solid gray
+
+    
+}
+.right>button{
+    height: 50%;
+    align-items: center;
+    margin: 17px 5px;
+    cursor: pointer;
+    background-color: rgb(62, 137, 236);
+    border-radius: 7px;
+    border: none ;
+    /* background-color: blue; */
+    /* -webkit-mask-origin: border-box; */
+}
+a:hover{
+    color: blue;
+    /* background-color: blue; */
+    
+}
+
+.right>a{
+    margin: 23px 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+li{
+    cursor: pointer;
+}
+.hang>img{
+    padding: 25px;
+    margin-bottom: 15px;
+    
+}
+/* #netflix{
+    display: flex;
+    justify-content: space-between;
+} */
+.organ,.result{
+    display: flex;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    
+    margin: auto;
+    margin-top: 87px; 
+    justify-content: space-evenly;
+}
+.result{
+    margin-top: 0px;
+}
+.organ>div,.result>div{
+    text-align: left;
+    justify-content: space-evenly;
+}
+.organ>div>button,.result>div>button{
+    padding: 15px 25px;
+    border-radius: 9px;
+    border-color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+.lastvid{
+    display: flex;
+}
+.lastvid>video{
+    /* padding:5px 17px; */
+    border-radius: 13px;
+    /* padding: 22px 27px; */
+    align-items: center;
+    display: block;
+}
+#heavy{
+    margin: auto;
+    margin-top: 47px;
+    
+}
