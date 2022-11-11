@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    /* text-align: center; */
+    font-size: 19px;
+    margin: auto;
+    padding-top: 57px;
+}
+th {
+   
+    Color:rgb(37, 37, 37);
+    /* text-decoration: none; */
+}
+td{
+    color: gray;
+}
+th, td {
+    width:240px;
+    text-align:center;
+    /* border:1px solid black; */
+    padding:5px
+
+}
+th,td:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
